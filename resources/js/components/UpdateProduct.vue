@@ -206,7 +206,8 @@ export default {
                  this.description = ' ',
                  this.images = [],
                 this.product_variant = [],
-                this.product_variant_prices = []
+                this.product_variant_prices = [],
+                window.location.href = '/product';
             }).catch(error => {
                 console.dir(error.response);
                 
